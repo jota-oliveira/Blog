@@ -1,0 +1,18 @@
+{
+  "name": "blog-theme",
+  "version": "1.0.0",
+  "author": "",
+  "description": "Po Custom Theme - blog-theme",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "build": "po-theme build"
+  },
+  "devDependencies": {
+    "@portinari/style": "^1.11.0"
+  },
+  "dependencies": {
+    "marked": "^1.1.1",
+    "ngx-markdown": "^10.1.1"
+  }
+}

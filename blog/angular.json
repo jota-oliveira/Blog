@@ -28,10 +28,31 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@po-ui/style/css/po-theme-default.min.css",
-              "src/styles.scss"
+              "node_modules/prismjs/themes/prism-dark.css",
+              "node_modules/@po-ui/style/css/po-theme-default-variables.min.css",
+              "src/styles.scss",
+              "./blog-theme/src/po-theme-custom.css",
+              "node_modules/@po-ui/style/css/po-theme-core.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/marked/lib/marked.js",
+              "node_modules/prismjs/prism.js",
+              "node_modules/emoji-toolkit/lib/js/joypixels.min.js",
+              "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js",
+              "node_modules/prismjs/plugins/command-line/prism-command-line.min.js",
+              "node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js",
+              "node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js",
+              "node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js",
+              "node_modules/prismjs/plugins/show-language/prism-show-language.min.js",
+              "node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js",
+              "node_modules/prismjs/components/prism-bash.js",
+              "node_modules/prismjs/components/prism-bash.min.js",
+              "node_modules/prismjs/components/prism-javascript.min.js",
+              "node_modules/prismjs/components/prism-typescript.min.js",
+              "node_modules/prismjs/components/prism-markdown.min.js",
+              "node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js",
+              "node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js"
+            ]
           },
           "configurations": {
             "production": {

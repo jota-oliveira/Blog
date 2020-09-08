@@ -1,15 +1,34 @@
 <div class="po-wrapper">
-  <po-toolbar p-title="AppName"></po-toolbar>
+  <po-toolbar p-title="Café & código"></po-toolbar>
 
   <po-menu [p-menus]="menus"></po-menu>
 
-  <po-page-default p-title="AppName">
+  <po-page-default p-title="Bem vindo!">
+    <p class="po-font-text">
+      Esse blog é minha contribuição com a comunidade compartilhando conhecimento (:
+    </p>
+
     <po-avatar
+      class="po-mt-2 po-mb-2"
       p-size="lg"
       p-src="assets/pf.jpg"
     ></po-avatar>
-    <p> AppName page </p>
 
-
+    <!-- lineNumbers
+    lineHighlight
+    showInvisibles
+    keepMarkup
+    markedown
+    autolinker
+    copyToClipboard
+    emoji
+    normalizeWhitespace
+  -->
+  <!-- unescapedMarkup -->
+    <markdown
+      class="po-font-text"
+      ngPreserveWhitespaces
+      src="assets/artigos/artigo2.md"
+    ></markdown>
   </po-page-default>
 </div>
