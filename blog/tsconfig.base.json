@@ -12,6 +12,10 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
+    "paths": {
+      "@modules/*": ["src/app/modules/*"],
+      "@pages/*": ["src/app/pages/*"]
+    },
     "lib": [
       "es2018",
       "dom"

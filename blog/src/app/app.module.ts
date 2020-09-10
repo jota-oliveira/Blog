@@ -1,25 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, SecurityContext } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PoAvatarModule, PoPageModule, PoToolbarModule, PoMenuModule } from '@po-ui/ng-components';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
-import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
+import { PoToolbarModule, PoMenuModule } from '@po-ui/ng-components';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    CommonModule,
-    BrowserModule,
     AppRoutingModule,
-    PoAvatarModule,
-    PoPageModule,
+    BrowserModule,
     PoToolbarModule,
     PoMenuModule,
-    PoAvatarModule,
     MarkdownModule.forRoot({
       sanitize: SecurityContext.NONE,
       markedOptions: {
@@ -34,8 +28,7 @@ import { CommonModule } from '@angular/common';
       },
     })
   ],
-  providers: [
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
