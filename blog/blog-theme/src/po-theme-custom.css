@@ -25,7 +25,7 @@
   --color-primary-dark-40: #422c23;
 
   /* Secondary */
-  --color-secondary: #5A918C;
+  --color-secondary: hsl(175, 23%, 46%);
 
   --color-secondary-dark-20: #306773;
 
@@ -56,13 +56,13 @@
   --color-white-alpha-30: rgba(245, 245, 245, 0.849);
 
   /* Background da página, Background da linha selecionada */
-  --color-neutral-light-98: rgba(245, 245, 245, 0.80);
+  --color-neutral-light-98: rgba(103, 179, 173, 0.246);
 
   /* Borda inferior de item de tabela, Base do Slider, Background do Input inativo */
-  --color-neutral-light-90: rgba(245, 245, 245, 0.849);
+  --color-neutral-light-90: rgba(148, 127, 105, 0.931);
 
   /* Step inativo, Base Switch desligado */
-  --color-neutral-light-80: rgba(245, 245, 245);
+  --color-neutral-light-80: rgba(103, 179, 173, 0.055);
 
   /* Ícone desabilitado, Slider desabilitado, Borda de input */
   --color-neutral-light-60: rgba(245, 245, 245);
@@ -71,7 +71,7 @@
   --color-neutral-light-40: rgba(245, 245, 245);
 
   /* Borda superior do itens do menu (45% de opacidade) */
-  --color-neutral-alpha-45: rgba(245, 245, 245, 0.45);
+  --color-neutral-alpha-45: rgba(128, 101, 79, 0.45);
 
   /* Background do Feedback, Pill de informação */
   --color-neutral: rgb(121, 121, 121);
