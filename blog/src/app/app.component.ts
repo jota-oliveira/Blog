@@ -13,6 +13,16 @@ export class AppComponent {
       label: 'Início',
       link: '/home',
       icon: 'po-icon-home'
+    },
+    {
+      label: 'Posts',
+      link: '/home/posts',
+      icon: 'po-icon-news'
+    },
+    {
+      label: 'Github',
+      link: 'https://github.com/jota-oliveira',
+      icon: 'po-icon-social-github'
     }
   ];
 
