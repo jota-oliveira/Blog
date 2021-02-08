@@ -12,7 +12,7 @@
     "@portinari/style": "^1.11.0"
   },
   "dependencies": {
-    "marked": "^1.1.1",
+    "marked": "^2.0.0",
     "ngx-markdown": "^10.1.1"
   }
 }
